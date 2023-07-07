@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="javasc.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div style="padding: 40px;" class="center">
+        <div class="mar">
+           
+               <strong id="hed"> <p style="padding-bottom: 10px;">CALCULATOR</p>   </strong>
+          
+
+            <div class="screen">
+                <input type="text" id="inp">
+                <!-- <div id="cur"></div> -->
+
+            </div>
+            <div class="keys">
+
+                <div class="row">
+                    <button id="clear" onclick="clearALL()" type="button">Clear</button>
+                    <button  id="back" onclick="backone()" type="button">Back</button>
+
+                </div>
+                <div class="row">
+                    <button onclick="number(7)" type="button">7</button>
+                    <button onclick="number(8)" type="button">8</button>
+                    <button onclick="number(9)" type="button">9</button>
+                    <button  onclick="number('/')"id="grid" type="button">/</button>
+                </div>
+                <div class="row">
+                    <button onclick="number(4)" type="button">4</button>
+                    <button onclick="number(5)" type="button">5</button>
+                    <button onclick="number(6)" type="button">6</button>
+                    <button onclick="number('*')" id="grid" type="button">*</button>
+                </div>
+                <div class="row">
+                    <button onclick="number(1)" type="button">1</button>
+                    <button onclick="number(2)" type="button">2</button>
+                    <button onclick="number(3)" type="button">3</button>
+                    <button onclick="number('-')" id="grid" type="button">-</button>
+                </div>
+                <div class="row">
+                    <button onclick="number(0)" type="button">0</button>
+                    <button onclick="number('.')" type="button"><strong>.</strong></button>
+                    <button onclick="number('+')" type="button">+</button>
+                    <button onclick="calcu()"  id="eq" type="button">=</button>
+                </div>
+                <span style=" text-align: center;padding-top: 5px; letter-spacing: 2px;">BY SHUBHAM_YADAV</span>
+            </div>
+           
+        </div>
+    </div>
+</body>
+
+</html>

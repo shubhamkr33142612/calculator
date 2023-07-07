@@ -1,0 +1,107 @@
+.mar {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 301px;
+	margin-top: 100px;
+	background-color: rgb(206, 204, 202);
+	/* padding-top: 40px;
+    padding-bottom: 20px; */
+	padding: 30px 10px;
+	padding-top: 16px;
+	margin: auto;
+	border-radius: 6px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px,
+		rgba(0, 0, 0, 0.3) 0px 30px 60px -30px,
+		rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+	/* position: relative; */
+}
+#hed {
+	letter-spacing: 4px;
+	font-size: 20px;
+}
+
+.screen {
+	background-color: rgba(102, 100, 100, 0.856);
+	color: black;
+	/* display: flex;
+    flex-direction: column; */
+	width: 253px;
+	height: 70px;
+	font-size: 26px;
+	border-radius: 6px;
+	/* position: absolute; */
+}
+input {
+	font-size: 26px;
+	border-radius: 4px;
+	width: 249px;
+	height: 68px;
+	border: none;
+}
+.pre {
+	padding-left: 5px;
+}
+.cur {
+	padding-top: 10px;
+	padding-left: 5px;
+}
+.keys {
+	margin-top: 4px;
+	display: flex;
+	flex-direction: column;
+
+	/* grid: 10px */
+}
+.row {
+	margin: 4px 0px;
+}
+button {
+	width: 60px;
+	height: 65px;
+	border: none;
+	font-size: 19px;
+	border-radius: 4px;
+    color: #2b2929;
+}
+/* .grid:hover {
+	font-size: 23px;
+} */
+button:hover {
+	/* border: 1px solid black; */
+	box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset,
+		rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset,
+		rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
+		rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
+		rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
+	border-color: #464040;
+    color: rgb(0, 0, 0);
+    /* width: 62px; */
+	/* height: 67px;
+    transition: height .3s; */
+	background-color: rgb(102, 162, 197);
+}
+#eq {
+	background-color: rgb(221, 135, 55);
+}
+#eq:hover {
+	background-color: rgb(252, 154, 8);
+}
+#clear {
+	width: 125px;
+	background-color: rgb(230, 80, 80);
+}
+#clear:hover {
+    color: white;
+	background-color: rgb(255, 9, 9);
+}
+#back {
+	width: 125px;
+}
+#back {
+	background-color: rgb(132, 181, 221);
+}
+#back:hover {
+    color: white;
+	background-color: rgb(38, 153, 247);
+}
